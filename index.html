@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KARTHICK M | Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body class="dark-mode">
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="container">
+      <div class="logo">Portfolio</div>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="#">About Me ▼</a>
+            <ul class="dropdown-menu">
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#">Portfolio ▼</a>
+            <ul class="dropdown-menu">
+              <li><a href="#certifications & Training">Certificates</a></li>
+              <li><a href="#projects">Projects</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Toggle -->
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- THEME & COLOR PICKER -->
+  <div class="theme-picker">
+    <select id="theme-select">
+      <option value="dark">Dark</option>
+      <option value="light">Light</option>
+      <option value="transparent">Transparent</option>
+    </select>
+
+    <input type="color" id="color-picker" value="#00ff00">
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <canvas id="heroCanvas"></canvas>
+
+    <div class="hero-content">
+      <h1 class="name">KARTHICK M</h1>
+      <h2 class="role">
+        Aspiring Network Engineer🌐 | Future Network Penetration Tester🖥️
+      </h2>
+
+      <p class="tagline">
+        “Securing networks. Breaking them to protect them.”
+      </p>
+
+      <div class="cta-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="Karthick_Resume.pdf" class="btn" download>
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+ 
+</body>
+</html>
+
+
+
+
+
+<!-- ABOUT SECTION -->
+<body>
+<hr>
+<section class="about-me" id="about">
+    <div class="container">
+        <div class="profile">
+            <img src="D:\KAR\images\karthick.jpeg" alt="Cyber Avatar" class="profile-photo">
+        </div>
+
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <strong>Karthick M</strong>, passionate about
+                <span class="highlight">Cybersecurity</span>, ethical hacking,
+                and securing modern networks. A motivated Cybersecurity student and ethical hacking enthusiast building practical skills in penetration testing, vulnerability analysis, and network security.
+            </p>
+            <br>
+
+            <div class="goals">
+                <h3>Career Goals 🎯</h3>
+                <ul>
+                    <li><i class="fa-solid fa-bullseye"></i> Short-term: <strong>Network Engineer</strong></li>
+                    <li><i class="fa-solid fa-rocket"></i> Long-term: <strong>Network Penetration Tester</strong></li>
+                </ul>
+            </div>
+
+            <p class="passion">
+                💻 Exploring vulnerabilities ethically to build a safer digital world.
+            </p>
+        </div>
+    </div>
+</section>
+<hr>
+
+
+
+
+
+<!--MYSKILL-->
+<section class="My skills-section" id="My skills-section">
+
+  <h2 class="section-title">My Skills</h2>
+  <p class="section-subtitle">
+    Always Learning 🔥 Always Improving | Cybersecurity & Ethical Hacker
+  </p>
+
+  <div class="skills-container">
+
+    <!-- NETWORKING -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <span class="skill-icon">🌐</span>
+        <h3>Networking</h3>
+      </div>
+
+      <p>1) IP / TCP</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="60">60%</div>
+      </div>
+
+      <p>2) OSI Model</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="70">70%</div>
+      </div>
+
+      <p>3) VPN</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="60">60%</div>
+      </div>
+
+      <p>4) HTTP / HTTPS</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="70">70%</div>
+      </div>
+
+      <p>5) ToR</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="80">80%</div>
+      </div>
+    </div>
+
+    
+
+    <!-- PROGRAMMING -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <span class="skill-icon">💻</span>
+        <h3>Programming</h3>
+      </div>
+
+      <p>1) Python</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="30">30%</div>
+      </div>
+
+      <p>2) Bash</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="10">10%</div>
+      </div>
+
+      <p>3) C </p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="70">70%</div>
+      </div>
+
+      <p>4) HTML</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="90">90%</div>
+      </div>
+
+      <p>5) CSS</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="40">40%</div>
+      </div>
+
+      <p>6) Javascript</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="20">20%</div>
+      </div>
+    </div>
+
+    <!-- TOOLS -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <span class="skill-icon">🛠️</span>
+        <h3>Tools</h3>
+      </div>
+
+      <p>1) Kali Linux</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="90">90%</div>
+      </div>
+
+      <p>2) Wireshark</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="40">40%</div>
+      </div>
+
+      <p>3) PuTTy</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="80">80%</div>
+      </div>
+
+      <p>4) WinSCP</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="80">80%</div>
+      </div>
+
+      <p>5) Cisco Pocket Tracer</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="50">50%</div>
+      </div>
+
+      <p>6) Git & GitHub</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="60">60%</div>
+      </div>
+    </div>
+
+    <!-- TOOLS --
+    <div class="skill-card">
+      <div class="skill-header">
+        <span class="skill-icon">🛠️</span>
+        <h3>Tools</h3>
+      </div>
+
+      <p>1) Kali Linux</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="90">90%</div>
+      </div>
+
+      <p>2) Wireshark</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="40">40%</div>
+      </div>
+
+      <p>3) PuTTy</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="80">80%</div>
+      </div>
+
+      <p>4) WinSCP</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="80">80%</div>
+      </div>
+
+      <p>5) Cisco Pocket Tracer</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="50">50%</div>
+      </div>
+
+      <p>6) Git & GitHub</p>
+      <div class="progress-bar">
+        <div class="progress-fill fire" data-progress="60">60%</div>
+      </div>
+    </div>-->
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- ================= PROJECTS SECTION ================= -->
+<body>
+<hr>
+<section class="projects" id="projects">
+    <h2>🔥 Projects (Proof of Skills)</h2>
+    <br>
+
+    <div class="project-grid">
+      <p><h2><center>Not Yet🙃</center></h2></p>
+      <!--
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Network Vulnerability Scan">
+            <div class="project-content">
+                <h3>Network Vulnerability Scan</h3>
+                <p>Performed vulnerability scanning and reporting using industry tools.</p>
+                <p><strong>Tools:</strong> Nmap, OpenVAS, Kali Linux</p>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Home Lab">
+            <div class="project-content">
+                <h3>Home Lab – Kali Linux</h3>
+                <p>Built a virtual pentesting lab for hands-on cyber practice.</p>
+                <p><strong>Tools:</strong> Kali Linux, VMware, Metasploit</p>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/400x200" alt="Firewall">
+            <div class="project-content">
+                <h3>Firewall Configuration</h3>
+                <p>Configured firewall rules and secured network traffic.</p>
+                <p><strong>Tools:</strong> pfSense, Cisco Packet Tracer</p>
+                <div class="project-links">
+                    <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                </div>
+            </div>
+        </div>
+        -->
+
+    </div>
+</section>
+<hr>
+
+
+
+
+
+<!-- ================= CERTIFICATIONS SECTION ================= -->
+<section class="certifications & Training" id="certifications & Training">
+    <h1><i class="fas fa-certificate"></i> Certifications & Training</h1>
+    <p class="section-subtitle">
+        Learning, labs, and discipline — the real path to cybersecurity mastery.
+    </p>
+
+    <div class="cert-grid">
+
+        <div class="cert-card pursuing">
+            <i class="fas fa-network-wired"></i>
+            <h3>CCNA</h3>
+            <span class="status">Pursuing</span>
+            <p>Strong foundation in networking and security.</p>
+        </div>
+
+        <div class="cert-card future">
+            <i class="fas fa-user-secret"></i>
+            <h3>CEH</h3>
+            <span class="status">Future Goal</span>
+            <p>Advanced ethical hacking methodologies.</p>
+        </div>
+
+        <div class="cert-card completed">
+            <i class="fas fa-skull-crossbones"></i>
+            <h3>TryHackMe</h3>
+            <span class="status">Active Learner</span>
+            <p>Hands-on labs and red team paths.</p>
+        </div>
+
+        <div class="cert-card completed">
+            <i class="fas fa-cube"></i>
+            <h3>Hack The Box</h3>
+            <span class="status">Practice</span>
+            <p>Realistic pentesting environments.</p>
+        </div>
+
+        <div class="cert-card completed">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Coursera / Udemy</h3>
+            <span class="status">Certified</span>
+            <p>Cybersecurity & ethical hacking courses.</p>
+        </div>
+
+    </div>
+
+    <div class="cert-motivation">
+        <P><h3>🛡️ “Certifications prove discipline, not just knowledge.”</h3></P>
+    </div>
+</section>
+<hr>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<body>
+<!-- ================= EXPERIENCE & LEARNING PATH ================= -->
+<section id="experience-learning" class="experience-section">
+  <div class="section-header">
+    <h2>🌟 Experience & Learning Path</h2>
+    <p>Track your Cybersecurity journey & growth 🚀</p>
+  </div>
+
+  <!-- Moon & Water Drop animation container -->
+  <div class="animation-container">
+    <div class="moon"></div>
+    <div class="water-drop"></div>
+    <div class="bubble-container"></div>
+  </div>
+
+  <!-- Experience & Learning Timeline -->
+  <div class="timeline">
+    <h3>🎯 Experience</h3>
+    <ul>
+      <li><span class="year">YYYY</span> Not Yet</li>
+      <li><span class="year">YYYY</span> Not Yet</li>
+      <li><span class="year">YYYY</span> Not Yet</li>
+    </ul>
+    <br>
+
+    <h3>🔥 Learning Path</h3>
+    <div class="learning-path">
+      <div class="skill">
+        <span>IT & Computer Fundamentals</span>
+        <div class="skill-bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Linux Mastery</span>
+        <div class="skill-bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Networking Fundamentals</span>
+        <div class="skill-bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Programming For Security</span>
+        <div class="skill-bar"><div class="progress" style="width: 30%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Cybersecurity Fundamentals</span>
+        <div class="skill-bar"><div class="progress" style="width: 40%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Ethical Hacking & Penetration Testing</span>
+        <div class="skill-bar"><div class="progress" style="width: 20%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Web Application Security</span>
+        <div class="skill-bar"><div class="progress" style="width: 10%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Certifications & Portfolio</span>
+        <div class="skill-bar"><div class="progress" style="width: 70%;"></div></div>
+      </div>
+    </div>
+    
+
+    <h3>🛰️ Certifications & Timeline</h3>
+    <ul class="certifications">
+      <li><span>2023:</span> PGDCA Certification</li>
+      <li><span>2025:</span> C Programming for HCL GUVI</li>
+      <li><span>2025:</span> Mastering Linux: Beginner to System Administration</li>
+    </ul>
+  </div>
+</section>
+<hr>
+
+
+
+
+
+<!--contact-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyber Contact & Connect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <br>
+
+<section class="contact" class="contact-section">
+
+  <!-- Typing Header -->
+  <div class="typing-container">
+    <h1><span id="typing"></span><span class="cursor">“Connecting securely today to protect tomorrow’s network.”</span></h1>
+  </div>
+
+  <div class="grid-container">
+
+    <!-- CONTACT SECTION -->
+    <div class="contact-box">
+      <h2>📡 Contact Terminal</h2>
+
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Transmit Message</button>
+        <p id="status"></p>
+      </form>
+
+      <div class="location">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>India (Remote Ready)</span>
+      </div>
+    </div>
+
+    <!-- CONNECT SECTION -->
+    <div class="connect-box">
+      <h2>🚀 Secure Connect</h2>
+
+      <div class="rocket-links">
+        <a href="mailto:20succ381.karthick.edu.in@email.com" class="rocket email">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+
+        <a href="https://www.linkedin.com/in/karthick-m-2243bb2a7" target="_blank" class="rocket linkedin">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://github.com/Karthickxhack" target="_blank" class="rocket github">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a href="https://www.instagram.com/lyf_of_karthick_96_?igsh=MWwwa2ZqcHQybTluYg==" target="_blank" class="rocket instagram">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+<br>
+<br>
+<br>
+<hr>
+
+
+
+
+
+
+
+
+
+<!--blog-->
+<body>
+<hr>
+<section class="blog-section" id="blog">
+  <h2 class="section-title">🧠 Security Blog & Write-Ups</h2>
+  <p class="section-subtitle">
+    Learning by breaking, documenting to defend.
+  </p>
+
+  <div class="blog-container">
+
+    <!-- BLOG CARD 1 -->
+    <div class="blog-card">
+      <h3>🔍 Network Scanning with Nmap</h3>
+      <ul>
+        <li>Identified live hosts using ARP & ICMP</li>
+        <li>Performed TCP SYN and UDP scans</li>
+        <li>Analyzed open ports and services</li>
+        <li>Mapped attack surface ethically</li>
+      </ul>
+      <span class="tag">Networking</span>
+    </div>
+
+    <!-- BLOG CARD 2 -->
+    <div class="blog-card">
+      <h3>🛡️ Vulnerability Assessment Lab</h3>
+      <ul>
+        <li>Configured Kali Linux test environment</li>
+        <li>Scanned targets using Nessus</li>
+        <li>Prioritized vulnerabilities (CVSS)</li>
+        <li>Prepared remediation report</li>
+      </ul>
+      <span class="tag">Ethical Hacking</span>
+    </div>
+
+    <!-- BLOG CARD 3 -->
+    <div class="blog-card">
+      <h3>🔥 Home Network Hardening</h3>
+      <ul>
+        <li>Firewall rule optimization</li>
+        <li>Disabled unused services</li>
+        <li>Implemented secure DNS</li>
+        <li>Reduced attack vectors</li>
+      </ul>
+      <span class="tag">Defense</span>
+    </div>
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+<br>
+<hr>
+
+
+
+
+
+
+<!-- quote-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Quotes & Hints</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="quotes-section">
+        <div class="leaf-bg"></div>
+        <div class="quote-container">
+            <h2 class="quote-heading">Motivation & Cybersecurity Insight</h2>
+            <p class="quote-body" id="quote">“Cybersecurity is not just a skill, it’s a mindset.”</p>
+            <p class="quote-hint" id="hint">Hint: Practice ethical hacking to stay ahead!</p>
+            <div class="date-time">
+                <span id="time"></span> |
+              <span id="date"><!----></span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<hr>
+
+
+
+
+
+
+
+
+
+<head>
+  <link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<!--footer-->
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Logo / Name -->
+    <div class="footer-brand">
+      <h2>KARTHICK M</h2>
+      <p class="footer-tech">Built with HTML, CSS, JavaScript</p>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="footer-social">
+      <a href="https://github.com/Karthickxhack" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/karthick-m-2243bb2a7" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/lyf_of_karthick_96_?igsh=MWwwa2ZqcHQybTluYg==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:20succ381.karthick.edu.in@email.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <!-- Motivational Cybersecurity Quote -->
+    <div class="footer-quote">
+      <p>"Security is not a product, but a process. Stay ethical, stay vigilant." 🛡️</p>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      <p>Copyright © 2026 Karthick M | All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Font Awesome CDN for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<hr>
+
